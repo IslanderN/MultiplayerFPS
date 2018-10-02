@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce60b4947670deb44a37e9883cb35c74, type: 3}
+  m_Name: InteractionSystem
+  m_EditorClassIdentifier: 
+  Dependencies:
+  - name: Tree
+    tag: {fileID: 11400000, guid: 8740c2affe0aba84bb7d02c7ba4b14c1, type: 2}
+    logic: {fileID: 11400000, guid: b0da7e0e49a6ea24a977f677557ee9c2, type: 2}
+  - name: Flag
+    tag: {fileID: 11400000, guid: e4d72eb3984cc8f43b4cae4ccdd3852e, type: 2}
+    logic: {fileID: 11400000, guid: 3b25f7ccd847af543b7a65df170eda91, type: 2}
+  - name: Transport
+    tag: {fileID: 11400000, guid: e29e29d5fee8d484ba40d7858760c69b, type: 2}
+    logic: {fileID: 11400000, guid: 931ec8f5407ffd1459df514b08c9a5a5, type: 2}
+  - name: Chair
+    tag: {fileID: 11400000, guid: 0dd2e5f4b9cef7b41bb3f85565b1929d, type: 2}
+    logic: {fileID: 11400000, guid: 419f789d7c64721478479989bbf90f7e, type: 2}
+  - name: BoxForPlayer
+    tag: {fileID: 11400000, guid: a00e497060373274fa224d295a31fb43, type: 2}
+    logic: {fileID: 11400000, guid: 2c0f82245f4c48d44b4e993cdd7089c4, type: 2}
+  - name: SimpleCar
+    tag: {fileID: 11400000, guid: b0b8631ca32d6f24aa799911905c36ae, type: 2}
+    logic: {fileID: 11400000, guid: 63f82c807959c3042a4ba537895d3f54, type: 2}
+  - name: Lamp
+    tag: {fileID: 11400000, guid: f9f003d6894e6b449ab53d8c6af6aed3, type: 2}
+    logic: {fileID: 11400000, guid: 9030cea6e60f79a4a90c99c7dc8ca562, type: 2}
+  - name: ItemToPickUp
+    tag: {fileID: 11400000, guid: 91ffea9560632a349a925da96a278be9, type: 2}
+    logic: {fileID: 11400000, guid: 42f94955211c485499598212d52b22b2, type: 2}
+  - name: Turret
+    tag: {fileID: 11400000, guid: e1a8bffc9b425984ebaef7cf0bebc437, type: 2}
+    logic: {fileID: 11400000, guid: 7808ff25a95b50848b726cd5bed80832, type: 2}
